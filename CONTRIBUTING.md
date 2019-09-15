@@ -1,6 +1,6 @@
-# Contributing to ngx-admin
+# Contributing to RentalManager
 
-We would love for you to contribute to ngx-admin and help make it ever better together! :rocket:
+We would love for you to contribute to RentalManager and help make it ever better together! :rocket:
 
  - [Code of Conduct](#coc)
  - [Question or Problem?](#question)
@@ -11,17 +11,11 @@ We would love for you to contribute to ngx-admin and help make it ever better to
  - [Commit Message Guidelines](#commit)
 
 ## <a name="coc"></a> Code of Conduct
-Help us keep ngx-admin open and inclusive. Please read and follow our [Code of Conduct][coc].
+Help us keep RentalManager open and inclusive. Please read and follow our [Code of Conduct][coc].
 
 ## <a name="question"></a> Got a Question or Problem?
 
-Please do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. You've got much better chances of getting your question answered on [StackOverflow][stackoverflow] where the questions should be tagged with tag `ngx-admin`.
-
-StackOverflow is a much better place to ask questions since:
-
-- there are thousands of people willing to help on StackOverflow
-- questions and answers stay available for public viewing so your question / answer might help someone else
-- StackOverflow's voting system assures that the best answers are prominently visible.
+Please do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. If you need personal support, don't hesitate to contact me with information provided on my [blog].
 
 To save your and our time, we will be systematically closing all the issues that are requests for general support and redirecting people to StackOverflow.
 
@@ -34,7 +28,7 @@ diagnose the problem. Screenshots and error stack traces are also helpful.
 
 Please follow this simple checklist before submitting:
 
-* If you have a question about using ngx-admin, please ask on the [StackOverflow][stackoverflow].
+* If you have a question about using RentalManager, please ask me directly.
 
 * It is required that you clearly describe the steps necessary to reproduce the issue you are running into. Although we would love to help our users as much as possible, diagnosing issues without clear reproduction steps is extremely time-consuming and simply not sustainable.
 
@@ -42,19 +36,17 @@ Please follow this simple checklist before submitting:
 
 * Issues with no clear steps to reproduce will not be triaged. If an issue is labeled with "needs info" and receives no further replies from the author of the issue for more than 5 days, it will be closed.
 
-* If you think you have found a bug, or have a new feature idea, please start by making sure it hasn't already been [reported][issues]. You can search through existing issues to see if there is a similar one reported. Include closed issues as it may have been closed with a solution.
+* If you think you have found a bug, or have a new feature idea, please start by making sure it hasn't already been [reported][issues] and you are running the latest version of RentalManager. You can search through existing issues to see if there is a similar one reported. Include closed issues as it may have been closed with a solution.
 
 * Next, [create a new issue](#submit-issue) that thoroughly explains the problem. Please fill out the populated issue form before submitting the issue.
 
 ## <a name="feature"></a> Want a Feature?
 You can *request* a new feature by [submitting an issue](#submit-issue) to our [GitHub
-Repository][github]. If you would like to *implement* a new feature, please submit an issue with
-a proposal for your work first, to be sure that we can use it. 
+Repository][github]. If you would like to *implement* a new feature, please submit an issue with a proposal for your work first, to be sure that we can use it. 
 Please consider what kind of change it is:
 
 * For a **Major Feature**, first open an issue and outline your proposal so that it can be
-discussed. This will also allow us to better coordinate our efforts, prevent duplication of work,
-and help you to craft the change so that it is successfully accepted into the project.
+discussed. This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.
 * **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
 
 ### <a name="submit-issue"></a> Submitting an Issue
@@ -96,7 +88,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     git push my-fork my-fix-branch
     ```
 
-* In GitHub, send a pull request to `ngx-admin:master`.
+* In GitHub, send a pull request to `RentalManager:master`.
 * If we suggest changes then:
   * Make the required updates.
   * Re-run `npm run release:validate` to ensure tests are still passing, linter & build has no errors.
@@ -149,8 +141,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 ## <a name="commit"></a> Commit Message Guidelines
 
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
-readable messages** that are easy to follow when looking through the **project history**.  But also,
-we use the git commit messages to **generate the ngx-admin change log**.
+readable messages** that are easy to follow when looking through the **project history**.  
 
 ### Commit Message Format
 Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
@@ -214,8 +205,8 @@ The rest of the commit message is then used for this.
 
 [coc]: CODE_OF_CONDUCT.md
 [dev-doc]: DEV_DOCS.md
-[github]: https://github.com/akveo/ngx-admin
-[stackoverflow]: https://stackoverflow.com/questions/tagged/ngx-admin
-[issues]: https://github.com/akveo/ngx-admin/issues
-[new_issue]: https://github.com/akveo/ngx-admin/issues/new
-[pulls]: https://github.com/akveo/ngx-admin/pulls
+[github]: https://github.com/the78mole/RentalManager
+[issues]: https://github.com/the78mole/RentalManager/issues
+[new_issue]: https://github.com/the78mole/RentalManager/issues/new
+[pulls]: https://github.com/the78mole/RentalManager/pulls
+[blog]: https://blog.the78mole.de

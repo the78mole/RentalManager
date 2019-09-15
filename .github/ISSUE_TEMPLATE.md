@@ -1,6 +1,6 @@
 <!--
 ATTENTION! WE WILL HAVE TO CLOSE THIS ISSUE if you don't provide the needed information.
-Please read https://github.com/akveo/ngx-admin/blob/master/CONTRIBUTING.md before opening an issue.
+Please read https://github.com/the78mole/RentalManager/blob/master/CONTRIBUTING.md before opening an issue.
 -->
 
 ### Issue type
